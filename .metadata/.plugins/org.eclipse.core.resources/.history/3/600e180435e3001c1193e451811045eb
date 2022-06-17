@@ -1,0 +1,13 @@
+server:
+  port: 8081
+  
+spring:
+  jpa:
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+  datasource:
+    url: jdbc:postgresql://localhost:5432/hospital-mgt
+    username: postgresuser
+    password: postgrepass 

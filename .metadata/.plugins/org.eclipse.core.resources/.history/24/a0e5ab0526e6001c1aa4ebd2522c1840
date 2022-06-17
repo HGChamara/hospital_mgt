@@ -1,0 +1,27 @@
+package com.hospital.mgt.userservice.service;
+
+import com.hospital.mgt.userservice.entity.AppUser;
+import com.hospital.mgt.userservice.model.AppUserModel;
+import com.hospital.mgt.userservice.repository.AppUserRepository;
+
+public class AppUserServiceImpl implements AppUserService {
+
+	AppUserRepository appUserRepository;
+	
+	public AppUserService() {
+		
+	}
+	
+	@Override
+	public AppUser signUpUser(AppUserModel appUserModel) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public AppUser signInUser(AppUserModel appUserModel) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	
+}

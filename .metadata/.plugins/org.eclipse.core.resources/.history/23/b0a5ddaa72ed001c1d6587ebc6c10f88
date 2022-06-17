@@ -1,0 +1,49 @@
+package com.hospital.mgt.userservice.service;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertNotNull;
+
+import java.util.Optional;
+
+import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.extension.ExtendWith;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTest;
+import org.springframework.test.context.ContextConfiguration;
+import org.springframework.test.context.junit.jupiter.SpringExtension;
+
+import com.hospital.mgt.userservice.entity.AppUser;
+import com.hospital.mgt.userservice.model.AppUserModel;
+import com.hospital.mgt.userservice.repository.AppUserRepository;
+
+@ExtendWith(SpringExtension.class)
+@DataJpaTest
+public class AppUserServiceTest {
+	@Autowired
+	private AppUserRepository repository;
+	
+	@Autowired
+	private AppUserServiceImpl service;
+	
+	@Test
+	void injectedComponentsAreNotNull() {
+		assertNotNull(repository);
+	}
+	
+	@Test
+	void successfullyInsertData() throws Exception {
+		
+		service.signUpUser(AppUserModel.builder().id(123).username("user1").password("pass1").role("admin").build());
+		
+		//repository.save(AppUser.builder().id(123).username("u1").password("p1").role("admin").build());
+		
+		Optional<AppUser> userOp = repository.findByUsername("user1");
+		
+		assertEquals(userOp.get().getUsername(), "user1");
+		
+	}
+	
+	
+	
+
+}

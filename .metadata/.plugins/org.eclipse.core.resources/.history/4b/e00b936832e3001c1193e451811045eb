@@ -1,0 +1,6 @@
+package com.hospital.mgt.userservice.model;
+
+
+public class AppUser {
+
+}

@@ -1,0 +1,5 @@
+package com.hospital.mgt.userservice.controller;
+
+public class UserServiceController {
+
+}
