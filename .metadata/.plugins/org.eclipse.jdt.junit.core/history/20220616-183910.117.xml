@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testrun name="AppUserServiceTest" project="userservice" tests="2" started="2" failures="0" errors="0" ignored="0">
-  <testsuite name="com.hospital.mgt.userservice.service.AppUserServiceTest" time="0.394" displayname="AppUserServiceTest" uniqueid="[engine:junit-jupiter]/[class:com.hospital.mgt.userservice.service.AppUserServiceTest]">
-    <testcase name="successfullyInsertData" classname="com.hospital.mgt.userservice.service.AppUserServiceTest" time="0.39" displayname="successfullyInsertData()" uniqueid="[engine:junit-jupiter]/[class:com.hospital.mgt.userservice.service.AppUserServiceTest]/[method:successfullyInsertData()]"/>
-    <testcase name="injectedComponentsAreNotNull" classname="com.hospital.mgt.userservice.service.AppUserServiceTest" time="0.003" displayname="injectedComponentsAreNotNull()" uniqueid="[engine:junit-jupiter]/[class:com.hospital.mgt.userservice.service.AppUserServiceTest]/[method:injectedComponentsAreNotNull()]"/>
-  </testsuite>
-</testrun>

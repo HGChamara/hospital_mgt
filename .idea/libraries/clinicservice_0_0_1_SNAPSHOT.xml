@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="clinicservice-0.0.1-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/clinicservice/target/clinicservice-0.0.1-SNAPSHOT.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

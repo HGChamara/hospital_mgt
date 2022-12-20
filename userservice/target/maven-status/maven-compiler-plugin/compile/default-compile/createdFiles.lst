@@ -1,2 +1,9 @@
-com\hospital\mgt\userservice\model\AppUser.class
+com\hospital\mgt\userservice\controller\UserServiceController.class
+com\hospital\mgt\userservice\service\AppUserServiceImpl.class
+com\hospital\mgt\userservice\entity\AppUser.class
+com\hospital\mgt\userservice\model\AppUserModel.class
+com\hospital\mgt\userservice\model\AppUserModel$AppUserModelBuilder.class
+com\hospital\mgt\userservice\service\AppUserService.class
+com\hospital\mgt\userservice\entity\AppUser$AppUserBuilder.class
+com\hospital\mgt\userservice\repository\AppUserRepository.class
 com\hospital\mgt\userservice\UserserviceApplication.class
